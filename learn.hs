@@ -7,3 +7,5 @@ module Learn where
     x2 = 7
     y2 = 10 
     f = x2 + y2
+
+    dydx = (x2 - x) + (y2 - y)
