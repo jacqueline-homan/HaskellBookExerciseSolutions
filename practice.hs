@@ -18,3 +18,8 @@ divideMe = z/(x + y)
     where x = 7
           y = negate x
           z = y * 10
+
+z = 7
+x = y ^ 2
+waxOn = x * 5
+y = z + 8
