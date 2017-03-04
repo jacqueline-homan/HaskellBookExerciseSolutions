@@ -23,3 +23,29 @@ z = 7
 x = y ^ 2
 waxOn = x * 5
 y = z + 8
+
+triple x = x * 3
+waxOff = triple x
+
+
+--Exercises pp. 114-115 Ch 3.7 
+myString :: IO() 
+myString = do
+    putStrLn "Enter any string:"
+    str <- getLine
+    putStrLn ("Concatenation: " ++ str ++ "!")
+    putStrLn ("Returning one element: " ++ drop 4(take 5 str))
+    putStrLn ("Dropping the first 9 chars: " ++ drop 9 str)
+
+f :: String -> String
+f x = drop 4(take 5 x)
+
+thirdLetter :: String -> Char
+thirdLetter x = (!!) x 2
+
+letterIndex :: Int -> Char
+letterIndex x = 'r'
+
+rvrs :: String -> String
+rvrs x = take 7(drop 9 x) ++ " " ++ (take 2(drop 6 x)) ++ " " ++ (take 5 x)
+

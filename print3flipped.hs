@@ -1,7 +1,7 @@
 module Print3flipped where
 
 myGreeting :: String
-myGreeting = (++) "hello" " world!"
+myGreeting = (++) "hello" " world"
 
 hello :: String
 hello = "hello"
