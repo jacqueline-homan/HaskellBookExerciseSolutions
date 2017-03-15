@@ -20,3 +20,7 @@ In GHCi, you'd just enter (\x -> x) <value_assigned_to_x>
 
 g :: (a, b) -> a
 g (a, b) = a
+
+type Name = String
+
+data Pet = Cat | Dog Name
