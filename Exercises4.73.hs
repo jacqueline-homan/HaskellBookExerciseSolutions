@@ -23,4 +23,11 @@ g (a, b) = a
 
 type Name = String
 
-data Pet = Cat | Dog Name
+data Pet = Cat Name | Dog Name
+
+awesome = ["Papuchon", "curry", ":)"]
+alsoAwesome = ["Quake", "The Simons"]
+allAwesome = [awesome, alsoAwesome]
+
+isPalindrome :: (Eq a) => [a] -> Bool
+isPalindrome x = undefined

@@ -45,3 +45,6 @@ fromIntegral :: (Integral a, Num b) => a -> b; fromIntegral = undefined
 
 f :: Num a => a -> a -> a 
 f x y = x + y + 3
+
+myCom x = x > (length [1..10])
+myAlph x = x < 'z'
