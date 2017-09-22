@@ -16,9 +16,9 @@ changeMood _ = Blah | Woot
 -}
 
 data Jsays = Cool 
-            | GoShitInYourHat
+            | NotCool
             deriving Show
 
 j :: Jsays -> String
 j Cool = "Cool"
-j GoShitInYourHat = "Go shit in your hat"
+j NotCool = "Nope!"
