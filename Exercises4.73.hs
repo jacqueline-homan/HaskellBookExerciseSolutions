@@ -7,7 +7,7 @@ f :: Foldable t => t a -> Int
 f xs = w `x` 1
     where w = length xs
 
-{- Here's hpw to correctly write the identity function
+{- Here's how to correctly write the identity function
 x :: [a] -> [a]
 x = \x -> x 
 or just

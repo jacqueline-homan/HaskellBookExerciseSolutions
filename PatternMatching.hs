@@ -39,6 +39,8 @@ data Maybe a = Nothing | Just a
 catMaybes :: [Maybe a] -> [a]
 catMaybes ms = [ x | Just x <- ms ]
 -}
+
+putFirstChar :: IO()
 putFirstChar = do
 putStrLn "Enter any string:"
 (c:_) <- getLine
